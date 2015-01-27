@@ -1,0 +1,30 @@
+{
+	"name": "objectify-html",
+	"version": "0.1.0",
+	"license": "MIT",
+	"description": "HTML <-> JSON conversion.",
+	"author": "Trevor Parscal <trevorparscal@gmail.com>",
+	"scripts": {
+		"test": "node `which gulp` test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/trevorparscal/objectify-html"
+	},
+	"bugs": {
+		"url": "https://github.com/trevorparscal/objectify-html/issues"
+	},
+	"keywords": [
+		"html",
+		"json",
+		"convert"
+	],
+	"dependencies": {
+		"domino": "~1.0.18"
+	},
+	"devDependencies": {
+		"gulp": ">=3.8.8",
+		"gulp-mocha": ">=1.1.0",
+		"supertest": ">=0.13.0"
+	}
+}
