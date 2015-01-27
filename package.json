@@ -1,8 +1,8 @@
 {
 	"name": "objectify-html",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"license": "MIT",
-	"description": "HTML <-> JSON conversion.",
+	"description": "Convert HTML strings or nodes to JSON friendly JavaScript plain objects and back again.",
 	"author": "Trevor Parscal <trevorparscal@gmail.com>",
 	"scripts": {
 		"test": "node `which gulp` test"
